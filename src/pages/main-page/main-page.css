@@ -1,0 +1,7 @@
+.main {
+    display: flex;
+    justify-content: center;
+    grid-gap: 40px;
+    width: 100vw;
+    height: 90vh;
+}

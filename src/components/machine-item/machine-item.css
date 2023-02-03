@@ -1,0 +1,33 @@
+.machine-item {
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    transition: 0.2s ease;
+}
+
+img {
+    width: 110px;
+    min-height: 110px;
+    max-height: 110px;
+    margin: auto;
+}
+
+.item__title {
+    font-weight: bold;
+}
+
+.machine-item__desc {
+    background-color: #b9bac9;
+    border-radius: 5px;
+    color: black;
+    width: 100%;
+}
+
+.machine-item:hover {
+    transform: scale(1.2);
+}
+.border {
+    border: 1px solid #bdb9b9;
+    padding-top: 10px;
+    border-radius: 10px;
+}

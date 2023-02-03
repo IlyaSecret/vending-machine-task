@@ -1,0 +1,74 @@
+.machine-menu {
+    width: 20vw;
+    height: 80vh;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    -webkit-box-shadow: -2px 9px 10px 0px rgba(34, 60, 80, 0.21);
+    -moz-box-shadow: -2px 9px 10px 0px rgba(34, 60, 80, 0.21);
+    box-shadow: -2px 9px 10px 0px rgba(34, 60, 80, 0.21);
+    padding: 20px;
+}
+
+.machine-menu__balance {
+    padding-top: 10px;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    width: 150px;
+    height: 10vh;
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.menu_title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.deposit_btn {
+    width: 70px;
+    height: 40px;
+    background: aqua;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.machine-menu__deposit {
+    text-align: center;
+}
+.machine-menu__select {
+    flex-wrap: wrap;
+    padding: 30px;
+    width: 100%;
+    justify-content: center;
+    grid-gap: 10px;
+}
+.select_btn {
+    padding: 3px 25px;
+    background: aqua;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    margin: 3px 3px;
+}
+.machine-menu__change {
+    text-align: center;
+}
+.change_btn {
+    width: 7rem;
+    background: aqua;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: center;
+    margin: 3px 3px;
+}
+.select_btn:disabled {
+    background-color: #eb6565;
+}
