@@ -6,13 +6,13 @@ import { Product } from "../../types/product";
 import InventoryItem from '../../components/inventory-item/inventory-item';
 
 export default function InventoryPage() {
-    const inventoryItems = useAppSelector((state: RootState) => state.main.invenory);
+    const inventoryItems = useAppSelector((state: RootState) => state.main.products);
 
     return (
         <div className="inventory-page">
             <h1>Ваш инвентарь:</h1>
             <div className="inventory-page__content">
-                {inventoryItems.map((el: Product) => <InventoryItem item={el}></InventoryItem>)}
+                {inventoryItems.filter(item => item.quantityInInventory > 0).map((el: Product) => <InventoryItem item={el}></InventoryItem>)}
             </div>
         </div>
     )

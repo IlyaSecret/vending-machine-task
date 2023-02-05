@@ -36,6 +36,7 @@ export const mainReducerSlice = createSlice({
             if (item && item.price <= state.machineBalance) {
                 state.machineBalance -= item.price;
                 state.products[item.id - 2].quantity -= 1;
+                state.products[item.id - 2].quantityInInventory += 1;
                 state.invenory.push(state.products[item.id - 2]);
 
             }
